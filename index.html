@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="header">
@@ -30,9 +31,9 @@
                 </ul>
             </nav>
             <!--list of contacts links-->
-            <ul class="mail-tel-list list">
+            <ul class="mltel-list list">
                 <li class="mltel-list-item">
-                    <a class="mail-link link" href="mailto:info@devstudio.com">
+                    <a class="mltel-list-link link" href="mailto:info@devstudio.com">
                         <svg class="logo-mail">
                             <use href="./images/sprite.svg#envelope"></use>
                         </svg>
@@ -40,7 +41,7 @@
                     </a>
                 </li>
                 <li class="mltel-list-item">
-                    <a class="tel-link link" href="tel:+380961111111">
+                    <a class="mltel-list-link link" href="tel:+380961111111">
                         <svg class="logo-phone">
                             <use href = "./images/sprite.svg#smartphone"></use>
                         </svg>
@@ -62,41 +63,41 @@
             <div class="container">
                 <h2 class="strengths-title visually-hidden">Наши сильные стороны</h2>
                 <ul class="strengths-list list">
-                    <li class="str-list-item">
+                    <li class="strengths-list-item">
                         <div class="strengths-image">
                             <svg class="strengths-icon">
                                 <use href="./images/sprite.svg#antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="str-item-title">Внимание к деталям</h3>
-                        <p class="str-item-descr">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="strengths-item-title">Внимание к деталям</h3>
+                        <p class="strengths-item-descr">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="str-list-item">
+                    <li class="strengths-list-item">
                         <div class="strengths-image">
                             <svg class="strengths-icon">
                                 <use href="./images/sprite.svg#clock"></use>
                             </svg>
                         </div>
-                        <h3 class="str-item-title">Пунктуальность</h3>
-                        <p class="str-item-descr">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h3 class="strengths-item-title">Пунктуальность</h3>
+                        <p class="strengths-item-descr">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="str-list-item">
+                    <li class="strengths-list-item">
                         <div class="strengths-image">
                             <svg class="strengths-icon">
                                 <use href="./images/sprite.svg#diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="str-item-title">Планирование</h3>
-                        <p class="str-item-descr">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h3 class="strengths-item-title">Планирование</h3>
+                        <p class="strengths-item-descr">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li class="str-list-item">
+                    <li class="strengths-list-item">
                         <div class="strengths-image">
                             <svg class="strengths-icon">
                                 <use href="./images/sprite.svg#astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="str-item-title">Современные технологии</h3>
-                        <p class="str-item-descr">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="strengths-item-title">Современные технологии</h3>
+                        <p class="strengths-item-descr">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </div>
@@ -337,7 +338,7 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <div class="footer-container">
+            <div class="footer container">
 
                 <!-- LEFT FOOTER/ADDRESS -->
                 <div class="footer-left">
@@ -399,9 +400,9 @@
                     <p class="footer-title">Подпишитесь на рассылку</p>
                     <form class="subscription-form" action="#">
                         <input class="subscription-email" type="email" name="subscription-email" placeholder="E-mail">
-                        <button class="subscription-btn-submit" type="submit">
+                        <button class="sb-btn-submit" type="submit">
                             <span class="sb-btn-submit-title">Подписаться</span> 
-                            <svg class="subscription-send-icon">
+                            <svg class="sb-btn-submit-icon">
                                 <use href="./images/sprite.svg#send-icon"></use>
                             </svg>
                         </button>
@@ -429,7 +430,7 @@
                     Имя
                     <span class="modal-form-input-wrapper">
                         <input type="text" name="user-name" class="modal-form-input">
-                        <svg class="modal-input-icon">
+                        <svg class="modal-form-input-icon">
                             <use href="./images/sprite.svg#person"></use>
                         </svg>
                     </span> 
@@ -440,7 +441,7 @@
                     Телефон
                     <span class="modal-form-input-wrapper">
                         <input type="tel" name="user-telphone" class="modal-form-input">
-                        <svg class="modal-input-icon">
+                        <svg class="modal-form-input-icon">
                             <use href="./images/sprite.svg#phone"></use>
                         </svg>
                     </span>
@@ -451,7 +452,7 @@
                     Почта
                     <span class="modal-form-input-wrapper">
                         <input type="email" name="user-email" class="modal-form-input">
-                        <svg class="modal-input-icon">
+                        <svg class="modal-form-input-icon">
                             <use href="./images/sprite.svg#email"></use>
                         </svg>
                     </span>

@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/portfolio.min.css">
 </head>
 <body>
     <header class="header">
@@ -30,9 +31,9 @@
                 </ul>
             </nav>
             <!--list of contacts links-->
-            <ul class="mail-tel-list list">
+            <ul class="mltel-list list">
                 <li class="mltel-list-item">
-                    <a class="mail-link link" href="mailto:info@devstudio.com">
+                    <a class="mltel-list-link link" href="mailto:info@devstudio.com">
                         <svg class="logo-mail">
                             <use href="./images/sprite.svg#envelope"></use>
                         </svg>
@@ -40,7 +41,7 @@
                     </a>
                 </li>
                 <li class="mltel-list-item">
-                    <a class="tel-link link" href="tel:+380961111111">
+                    <a class="mltel-list-link link" href="tel:+380961111111">
                         <svg class="logo-phone">
                             <use href = "./images/sprite.svg#smartphone"></use>
                         </svg>
@@ -53,7 +54,7 @@
         <!--Our works/PORTFOLIO-->
        <section class="works">
            <div class="container">
-                <h1 class="works-title">Наше Портфолио</h1>
+                <h1 class="works-title visually-hidden">Наше Портфолио</h1>
 
                 <!--filter buttons for portfolio-->
                 <ul class="filter-list list">
@@ -209,7 +210,7 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <div class="footer-container">
+            <div class="footer container">
 
                 <!-- LEFT FOOTER/ADDRESS -->
                 <div class="footer-left">
@@ -271,9 +272,9 @@
                     <p class="footer-title">Подпишитесь на рассылку</p>
                     <form class="subscription-form" action="#">
                         <input class="subscription-email" type="email" name="subscription" placeholder="E-mail">
-                        <button class="subscription-btn-submit" type="submit">
+                        <button class="sb-btn-submit" type="submit">
                             <span class="sb-btn-submit-title">Подписаться</span> 
-                            <svg class="subscription-send-icon">
+                            <svg class="sb-btn-submit-icon">
                                 <use href="./images/sprite.svg#send-icon"></use>
                             </svg>
                         </button>
