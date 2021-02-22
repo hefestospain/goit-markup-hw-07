@@ -806,6 +806,8 @@ img {
 }
 
 .contacts-position-link {
+  display: inline-block;
+  min-width: 230px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
